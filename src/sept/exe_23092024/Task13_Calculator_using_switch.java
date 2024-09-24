@@ -4,9 +4,8 @@ public class Task13_Calculator_using_switch {
     public static void main(String[] args) {
         int num1 = 10;
         int num2 = 20;
-        int c = '/';
+        int c = '%';
         int result = 0;
-
 
         switch (c) {
             case '+':
@@ -30,8 +29,7 @@ public class Task13_Calculator_using_switch {
                 break;
 
             case '%':
-
-                System.out.printf("modulo of  %d % %d = %d",num1,num2,num1 % num2 );
+                System.out.printf("Modulus of  %d '%' %d = %d",num1,num2,num1 % num2 );
                 break;
 
             default:

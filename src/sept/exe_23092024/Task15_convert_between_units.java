@@ -3,8 +3,8 @@ package sept.exe_23092024;
 public class Task15_convert_between_units {
     public static void main(String[] args) {
 
-        double value=96.8;
-        String unit ="m";
+        double value=96;
+        String unit ="km";
 
         switch(unit){
 
