@@ -7,3 +7,5 @@ public class Task6 {
         System.out.println(a);
     }
 }
+//9+9+10
+//9

@@ -1,6 +1,7 @@
 package sept.exe_13092024;
 
-public class Lab012 {
+public class Lab012
+{
     public static void main(String[] args) {
         //costant are variables
         // value cannot change

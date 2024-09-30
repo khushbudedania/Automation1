@@ -4,7 +4,7 @@ public class Lab015_Concetination_operator {
     public static void main(String[] args) {
         String first_name = "khushbu";
         String last_name = "dedania";
-        System.out.println(first_name+last_name);
+        System.out.println(first_name+'\t'+last_name);
 
         int a = 10;
         int b = 10;

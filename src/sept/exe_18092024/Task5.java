@@ -8,5 +8,5 @@ public class Task5 {
         System.out.println(a);
     }
 }
-//-9+10+9
-//-9+(-9)+10
+//9+9+8
+//7

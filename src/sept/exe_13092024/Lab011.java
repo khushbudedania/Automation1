@@ -27,9 +27,5 @@ public class Lab011 {
 
         String s1 = "khushbu";
         Enum e1 = null;
-
-
-
-
     }
 }

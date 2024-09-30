@@ -10,5 +10,5 @@ public class Lab24_Type_casting {
     }
 }
 // byte b = 10;
-//int a = b; widenning with implicit casting (lossless)
-//int a1 = (int) b; widenning with explicit casting (lossless)
+//int a = b; widenning with implicit casting
+//int a1 = (int) b; widenning with explicit casting

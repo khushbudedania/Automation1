@@ -1,8 +1,10 @@
 package sept.exe_13092024;
 
 public class Task1_Table {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         int num = 10;
+
         System.out.printf("%d * %d = %d",num,1, num*1);
         System.out.println();
         System.out.printf("%d * %d = %d",num,2,num*2);
