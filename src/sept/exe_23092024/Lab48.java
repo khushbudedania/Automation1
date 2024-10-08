@@ -2,7 +2,7 @@ package sept.exe_23092024;
 
 public class Lab48 {
     public static void main(String[] args) {
-         int a = 11;
+        int a = 11;
 
          switch(-1){
              case 1:

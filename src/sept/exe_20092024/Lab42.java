@@ -2,8 +2,8 @@ package sept.exe_20092024;
 
 public class Lab42 {
     public static void main(String[] args) {
-        char grade = 'F';
-        int Score = 40;
+        //char grade = 'F';
+        int Score = 80;
         if (Score>=90 && Score<=100)
         {
             System.out.println("grade A");

@@ -3,7 +3,7 @@ package sept.exe_25092024;
 public class Task19_vowels_Consonants {
     public static void main(String[] args) {
       char ch = 'p';
-      String s1 = "myra";
+      //String s1 = "myra";
 
       if(ch == 'a'|| ch =='e'||ch == 'i'|| ch =='o'|| ch == 'u')
 
