@@ -1,6 +1,6 @@
 package oct.exe_04102024;
 
-public class Task_Person {
+public class Task24_Person {
     String name;
     int age;
     String eyes;
@@ -13,12 +13,12 @@ public class Task_Person {
     String job;
 
     //DC -- Default constructor
-    Task_Person() {
+    Task24_Person() {
         System.out.println("Iam a DC");
     }
 
     //PC -- Parameterized Constructor
-    Task_Person(String name) {
+    Task24_Person(String name) {
         this.name = name;
 
     }
@@ -49,9 +49,9 @@ public class Task_Person {
 
     public static void main(String[] args) {
 
-        Task_Person jay = new Task_Person();
-        Task_Person kay = new Task_Person("kay");
-        Task_Person lee = new Task_Person("lee");
+        Task24_Person jay = new Task24_Person();
+        Task24_Person kay = new Task24_Person("kay");
+        Task24_Person lee = new Task24_Person("lee");
 
 
         System.out.println(jay.name);

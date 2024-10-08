@@ -2,7 +2,7 @@ package oct.exe_04102024;
 
 import java.util.Date;
 
-public class Task_Person1 {
+public class Task25_Person1 {
 
     String First_Name;
     String Last_Name;
@@ -16,12 +16,12 @@ public class Task_Person1 {
     float weight;
 
     //default constructor
-    Task_Person1()
+    Task25_Person1()
     {
        System.out.println("this is a default constructor");
     }
     //PC -- Parameterized Constructor
-    Task_Person1(String First_Name,String Last_Name)
+    Task25_Person1(String First_Name, String Last_Name)
     {
         System.out.println("this is a pc");
         this.First_Name = First_Name;
@@ -29,7 +29,7 @@ public class Task_Person1 {
 
     }
     ////PC -- Parameterized Constructor
-    Task_Person1(String First_Name,String Last_Name,String Eye_color,int weight,long Adhar_card_no)
+    Task25_Person1(String First_Name, String Last_Name, String Eye_color, int weight, long Adhar_card_no)
     {
         System.out.println("this is a pc");
         this.First_Name = First_Name;
@@ -59,26 +59,26 @@ public class Task_Person1 {
 
     public static void main(String[] args) {
 
-        new Task_Person1();
+        new Task25_Person1();
 
-        Task_Person1 p1 = new Task_Person1("khushbu","dedania");
+        Task25_Person1 p1 = new Task25_Person1("khushbu","dedania");
         System.out.println(p1.First_Name);
         System.out.println(p1.Last_Name);
         System.out.println(p1.details("brown"));
 
 
-        Task_Person1 p2 = new Task_Person1("Neha","patel","brown",52,45217);
+        Task25_Person1 p2 = new Task25_Person1("Neha","patel","brown",52,45217);
         System.out.println(p2.First_Name);
         System.out.println(p2.Last_Name);
         System.out.println(p2.Eye_color);
         System.out.println(p2.Adhar_card_no);
 
 
-        Task_Person1 p3 = new Task_Person1();
+        Task25_Person1 p3 = new Task25_Person1();
         //System.out.println(p3.hw(52f,5.1f));
         p3.hw(5.5f,5f);
-        Task_Person1 p4 = new Task_Person1();
-        Task_Person1 p5 = new Task_Person1();
+        Task25_Person1 p4 = new Task25_Person1();
+        Task25_Person1 p5 = new Task25_Person1();
     }
 }
 //Create a Person Class with 10 Attributes and 5 Behaviorr( All types of Methods) and use the DC and PC to set the values, Create 5 Objects.
