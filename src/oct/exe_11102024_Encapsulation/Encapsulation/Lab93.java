@@ -13,8 +13,8 @@ public class Lab93 {
         GoodVWOLogin g1 = new GoodVWOLogin("chirag","login456");
         System.out.println(g1.getPassword());
 
-        boolean is_admin = true;
-        g1.setPasword("pooja",is_admin);
+
+        g1.setPasword("poojaaaaa",true);
 
         System.out.println(g1.getPassword());
 

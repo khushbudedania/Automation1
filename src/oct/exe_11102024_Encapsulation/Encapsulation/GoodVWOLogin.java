@@ -35,13 +35,5 @@ public class GoodVWOLogin {
     public GoodVWOLogin(String username, String password) {
         this.username = username;
         this.password = password;
-
-
-
-
-
-
-
-
     }
 }

@@ -5,5 +5,6 @@ public class Daughter extends Father{
     void home()
     {
         System.out.println("2 bhk");
+        super.home();
     }
 }
