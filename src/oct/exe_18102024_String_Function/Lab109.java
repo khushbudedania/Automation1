@@ -13,10 +13,12 @@ public class Lab109 {
         System.out.println(string1);
     }
 }
-// String can be created twoway in java.
+// String can be created two way in java.
 //(=) with the use of assighnment operator.(when you create they store their value in String constant pool area)
 //(new) new operator. (they store their value in heap area or object area)
 // When you create a string literal, the Java Virtual Machine (JVM) checks the "string constant pool"
 // to see if an identical string already exists. If it does, it returns a reference to that instance;
 // otherwise, it creates a new one.
 //new everytime create new location.
+//In string they always check the reff. location. (memory location)
+//in int they always check the value.

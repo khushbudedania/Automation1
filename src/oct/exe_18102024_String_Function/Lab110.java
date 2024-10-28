@@ -14,8 +14,12 @@ public class Lab110 {
         System.out.println(s2==s3);
         System.out.println(s3==s4);
 
+        //how can i check the values?
+        //then use the equals() operator.
         System.out.println(s1.equals(s2));//compare the values
     }
 }
 //(==) always check the reference location is same or not rather than the values.
 //(equals)for comparing the values always use.
+//In string they always check the reff. location.(memory location)
+//in int they always check the value.
