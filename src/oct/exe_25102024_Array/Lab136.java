@@ -17,6 +17,7 @@ public class Lab136 {
         marks1[2] = 13;
         marks1[3] = 14;
         marks1[4] = 15;
+
         System.out.println(marks1[0]);
         System.out.println(marks1[1]);
         System.out.println(marks1[2]);

@@ -1,4 +1,4 @@
-package oct.exe_28102024_Collection_Framework;
+package oct.exe_28102024_Collection_Framework_List;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +23,9 @@ public class Lab149_Vector {
 
     }
 }
-//it is legacy class similar to arraylist. you don't worray about the size automatically
-//increase.
+//it is legacy class similar to arraylist. you don't worray about the size automatically increase.
 //it is thread safe.
 //slower; time consuming.
+//Vector allows duplicates, and it is implemented as a resizable array.
+// Vector is a legacy class and elements will be stored internally using indexing notation.
+// Vector methods are synchronized,so vector objects can’t be accessed by multiple threads at a time.(Slow)

@@ -1,4 +1,4 @@
-package oct.exe_28102024_Collection_Framework;
+package oct.exe_28102024_Collection_Framework_List;
 
 public class LabPractise1 {
     public static void main(String[] args) {

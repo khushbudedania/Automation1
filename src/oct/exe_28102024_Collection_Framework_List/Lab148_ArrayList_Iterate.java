@@ -1,4 +1,4 @@
-package oct.exe_28102024_Collection_Framework;
+package oct.exe_28102024_Collection_Framework_List;
 
 import java.util.ArrayList;
 import java.util.Iterator;
