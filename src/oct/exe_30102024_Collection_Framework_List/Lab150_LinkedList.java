@@ -15,9 +15,6 @@ public class Lab150_LinkedList {
         linkedList.add(5);
         System.out.println(list);
         System.out.println(linkedList);
-
-
-
     }
 }
 //LinkedList allows duplicates and internally implements a **doubly-linked list data structure.

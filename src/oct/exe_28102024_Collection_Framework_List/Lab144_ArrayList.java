@@ -2,7 +2,7 @@ package oct.exe_28102024_Collection_Framework_List;
 
 import java.util.ArrayList;
 
-public class Lab143_ArrayList {
+public class Lab144_ArrayList {
     public static void main(String[] args) {
         ArrayList student = new ArrayList();
         student.add("Pramod");

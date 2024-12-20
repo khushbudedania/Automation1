@@ -20,6 +20,7 @@ public class Lab149_Vector {
         Vector v1 =new Vector();
         v1.add("kiran");//t1 -thread1
         v1.add("kajal");//t2 -thread2
+        System.out.println(v1);
 
     }
 }

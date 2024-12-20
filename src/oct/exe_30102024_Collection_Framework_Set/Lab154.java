@@ -16,18 +16,22 @@ public class Lab154 {
         hs.add("khushbu"); //Duplicate are not allowed.
         hs.add("Khushbu");
         hs.add("KHUSHBU");
+        hs.add(1);
         System.out.println(hs);//random order
 
         lhs.add("khushbu");// function are same for all.
         lhs.add("khushbu"); //Duplicate are not allowed.
         lhs.add("Khushbu");
         lhs.add("KHUSHBU");
-        System.out.println(lhs);// order
+        lhs.add(1);
+        System.out.println(lhs);// order as user enter.
 
         ts.add("khushbu");// function are same for all.
-        ts.add("khushbu"); //Duplicate are not allowed.
-        ts.add("Khushbu");
-        ts.add("KHUSHBU");
-        System.out.println(ts);//random order
+        ts.add("chirag"); //Duplicate are not allowed.
+        ts.add("pooja");
+        ts.add("myra");
+        //ts.add(null);//not allowed.
+        //ts.add(1);//object must be a comparable otherwise throw an exception.
+        System.out.println(ts);//sorted order alphabetically
     }
 }

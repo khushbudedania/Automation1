@@ -11,7 +11,7 @@ public class Lab148_ArrayList_Iterate {
         mylist.add("pooja");
 
         System.out.println("to print arraylist 1st way");
-        for(String str: mylist);
+        for(Object o: mylist);
         System.out.println(mylist);
 
         System.out.println("to print arraylist 2nd way");
