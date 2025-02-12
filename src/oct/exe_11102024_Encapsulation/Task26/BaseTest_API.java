@@ -13,7 +13,7 @@ public class BaseTest_API {
     {
         System.out.println("this is base test pc");
         this.id = id;
-        Name = name;
+        this.Name = name;
     }
 
     public int getId() {

@@ -5,8 +5,8 @@ public class Lab94 {
         ICICI khushbu = new ICICI("khushi",123456);
 
         System.out.println(khushbu.getBalance());
-        boolean isadmin =  false;
-        khushbu.setBalance(456789,isadmin);
+       
+        khushbu.setBalance(456789,true);
         System.out.println(khushbu.getBalance());
 
 

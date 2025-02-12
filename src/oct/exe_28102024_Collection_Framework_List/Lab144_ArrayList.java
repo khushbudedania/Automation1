@@ -13,6 +13,7 @@ public class Lab144_ArrayList {
         student.add(true);
         student.add(123);//Different datatype also support.
 
+
         System.out.println(student);
 
 
@@ -22,8 +23,10 @@ public class Lab144_ArrayList {
 //List -> Interface(you cannot create object of the interface.)
 //ArrayList, LinkedList, stack, vector all are classes.
 //List is a collection of items with same or different datatypes.
+
 //why List Duplicate record and Different datatype support?
 //because collection framework work with object and they cosider all this value("Dutta","pramod")as object.
+
 //ArrayList - Behind the scene it is **growable array(dynamic array).**
 //Array -> 10 -> you enter the 9th item
 // -> 20th array automatically (it is done in ArrayList Class) -

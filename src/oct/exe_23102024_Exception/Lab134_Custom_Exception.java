@@ -2,17 +2,18 @@ package oct.exe_23102024_Exception;
 
 public class Lab134_Custom_Exception
 {
-  /* public static void main(String[] args) throws Exception{
+  public static void main(String[] args) throws Exception
+  {
         Bank bank = new Bank(100,"INR");
         Bank bank1 = new Bank(200,"INR");
         Bank bank2 = new Bank(200,"dollar");
         System.out.println(bank.Add(bank1));
         System.out.println(bank.Add(bank2));
 
-    }*/
+    }
 }
 
-/*
+
 class Bank {
     private String Currency;
     private int Amount;
@@ -38,7 +39,8 @@ class Bank {
         Amount = amount;
     }
 
-    public int Add(Bank bank_name) {
+    public int Add(Bank bank_name)
+    {
         if (!bank_name.Currency.equalsIgnoreCase("INR"))
             try {
                 throw new Exception("cuurency mismatch");
@@ -48,6 +50,9 @@ class Bank {
         else {
             return this.Amount + bank_name.Amount;
 
-        }
 
-    }*/
+        }
+        return 0;
+
+    }
+}

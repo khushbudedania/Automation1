@@ -6,10 +6,11 @@ public class Cop {
     private String idcard;
 
 
-    public Cop(int gun) {
+    public Cop(int gun)
+    {
         this.gun = gun;
     }
-      protected  void canishoot()
+    protected void canishoot()
         {
             System.out.println("yes you can");
         }

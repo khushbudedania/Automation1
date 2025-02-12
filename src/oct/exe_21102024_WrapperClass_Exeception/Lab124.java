@@ -6,7 +6,8 @@ public class Lab124 {
         System.out.println(probleamF.show());
     }
 }
-class ProbleamF {
+class ProbleamF
+{
     int a = 10;
     int show()
     {

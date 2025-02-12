@@ -4,11 +4,11 @@ public class Base_class {
 
     private String browser;
 
-    public Base_class()
+     Base_class()
     {
         System.out.println("this is base class dc");
     }
-    public Base_class(String b)
+     Base_class(String b)
     {
         System.out.println("this is base class pc");
     }

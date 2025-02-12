@@ -45,22 +45,24 @@ class ABC implements I1,I2{
 
     }
 
-    @Override
     public void f4()
     {
         System.out.println("f4");
 
     }
+
 }
 
-interface I1 {
-    void f1();
+    interface I1
+    {
+        public int a = 10;
 
-    void f2();
-}
-    interface  I2{
+        void f1();
+        void f2();
+    }
+    interface  I2
+    {
         void f3();
-
         void f4();
 
     }

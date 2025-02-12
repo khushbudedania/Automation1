@@ -22,6 +22,7 @@ public class Lab145_ArrayList {
         {
             System.out.println(list.get(i));
         }
+
         //foreach loop
         for (Object o:list)
         {

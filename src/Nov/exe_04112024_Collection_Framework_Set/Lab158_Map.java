@@ -13,14 +13,19 @@ public class Lab158_Map {
 
         m1.put("Roll No", "1");
         m1.put("Name", "Khushbu");
-        m1.put("Name", "Khushbum");//unique key (take latest one)
-        m1.put(null, null);// null key and value allow
+        m1.put("Name", "pooja");//unique key (take latest one)
+        m1.put(null, null);// only one null key allow
+        m1.put("city", null);//Multiple null values allow
+        m1.put("country", null);
         System.out.println(m1);
 
         m2.put("Roll No", "1");
         m2.put("Name", "Khushbu");
         m2.put("Name", "Khushbu");//unique key (take latest one)
-        m2.put(null, null);// null key and value allow
+        m2.put(null, null);// only one null key allow
+        m2.put(null, null);
+        m2.put("city", null);//Multiple null values allow
+        m2.put("country", null);
         System.out.println(m2);
 
          m3.put("Roll No", "1");

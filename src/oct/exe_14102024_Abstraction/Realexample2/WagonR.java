@@ -1,10 +1,11 @@
 package oct.exe_14102024_Abstraction.Realexample2;
 
 public class WagonR extends Engine{
+
     void drive()
     {
-       // void StartEngine();
-         // void StopEngine();
+//         StartEngine;
+//         StopEngine;
     }
 
     @Override

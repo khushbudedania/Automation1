@@ -20,7 +20,7 @@ public class GoodVWOLogin {
        this.password = password;
     }
 
-    public void setPasword(String Password,boolean is_auth){
+    public void setPassword(String Password,boolean is_auth){
     if(is_auth)
     {
         this.password = password;
@@ -32,7 +32,7 @@ public class GoodVWOLogin {
         System.out.println("not allowed");
     }
     }
-    public GoodVWOLogin(String username, String password) {
+        GoodVWOLogin(String username, String password) {
         this.username = username;
         this.password = password;
     }

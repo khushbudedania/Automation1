@@ -11,6 +11,8 @@ public class Lab117_Exception {
         System.out.println(ip1);
         System.out.println(ip2);
     }
-}
+    }
+
+
 //take the user input from CLI(CommandLine Interface)
 //like Scanner class.

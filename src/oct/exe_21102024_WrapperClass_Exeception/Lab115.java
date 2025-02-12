@@ -4,7 +4,7 @@ public class Lab115 {
     public static void main(String[] args) {
         //primitive to wrapper class
         int a = 10;
-        Integer b = a;//boxing  int -> Integer
+        Integer b = a;//Autoboxing  int -> Integer
         System.out.println(a);
         System.out.println(b.intValue());
         System.out.println(Integer.MAX_VALUE);//static class directly use

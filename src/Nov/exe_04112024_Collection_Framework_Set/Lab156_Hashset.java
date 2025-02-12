@@ -1,6 +1,9 @@
 package Nov.exe_04112024_Collection_Framework_Set;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class Lab156_Hashset {
     public static void main(String[] args) {
@@ -10,6 +13,9 @@ public class Lab156_Hashset {
         hs.add("Orange");
         hs.add("Apple");//duplicate not allowed.
         System.out.println("Set Elements: " + hs );
+
+        Set set = Set.of("apple","orange","banana","apricot");
+        System.out.println(set);
 
     }
 }

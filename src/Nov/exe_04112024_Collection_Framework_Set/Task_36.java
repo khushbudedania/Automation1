@@ -8,10 +8,11 @@ import java.util.Map;
 public class Task_36 {
     public static void main(String[] args) {
 
-        Integer[] num={2,2,3,4,5,5,5,3,2,4};// // add item to an Array
+        Integer[] num={2,2,3,4,5,5,5,3,2,4};//add item to an Array
         HashMap<Integer,Integer> freq=new HashMap<>();// HashMap to store the elements
         // Iterate through an array to check the frequency of each item
-        for(int o:num){
+        for(int o:num)
+        {
             freq.put(o, freq.getOrDefault(o,0)+1);
         }
 

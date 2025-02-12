@@ -17,8 +17,9 @@ public class ATBStudent {
     void walk(){}
     void learning(){}
 
-    public static void main(String[] args) {
-        ATBStudent object1=new ATBStudent();
+    public static void main(String[] args)
+    {
+        ATBStudent object1 =new ATBStudent();
         object1.age=27;
         //object1.study();
 

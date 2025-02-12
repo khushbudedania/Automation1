@@ -14,7 +14,7 @@ public class Lab93 {
         System.out.println(g1.getPassword());
 
 
-        g1.setPasword("poojaaaaa",true);
+        g1.setPassword("poojaaaaa",true);
 
         System.out.println(g1.getPassword());
 

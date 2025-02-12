@@ -38,10 +38,10 @@ public class Task_34 {
         //hashtable.put(null,null);
         System.out.println(hashtable);
 
-       /* for(Map.Entry<Integer,String> item: hashtable.entrySet())
-        {
-            System.out.println(item.getKey() + "->" + item.getValue());
-        }*/
+//        for(Map.Entry<Integer,String> item: hashtable.entrySet())
+//        {
+//            System.out.println(item.getKey() + "->" + item.getValue());
+//        }
 
         Enumeration<Integer> e = hashtable.keys();
         while (e.hasMoreElements())

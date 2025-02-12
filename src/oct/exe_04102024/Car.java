@@ -1,6 +1,6 @@
 package oct.exe_04102024;
 
-public class Car {
+public class  Car {
     // Engine and Tyre
     Engine engine;
     Tyre tyre;

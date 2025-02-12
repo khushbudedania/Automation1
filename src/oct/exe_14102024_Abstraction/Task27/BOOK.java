@@ -8,9 +8,10 @@ public abstract class BOOK {
 
     abstract void getdetails();
 
-    public BOOK(String name, String author, int price) {
-        Name = name;
-        Author = author;
+    public BOOK()
+    {
+        this.Name = Name;
+        this.Author = Author;
         this.price = price;
     }
 }

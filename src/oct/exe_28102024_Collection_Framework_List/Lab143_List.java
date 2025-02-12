@@ -4,12 +4,10 @@ import java.util.List;
 
 public class Lab143_List {
     public static void main(String[] args) {
-        List list = List.of("Apple","Banana","Grapes","Pear");
+        List list = List.of("Apple","Banana","Grapes","Pear",1);
         System.out.println(list);
        // System.out.println(list.add("Chickoo"));
         System.out.println(list.isEmpty());
-
-
     }
 
 }

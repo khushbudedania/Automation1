@@ -16,4 +16,4 @@ public class Lab162 {
 // of variables or objects.
 // idea is to allow different types like Integer, String, … etc and user-defined types to be a parameter
 // to methods, classes, and interfaces.
-//T is aanything(ref.)
+//T is anything(ref.)

@@ -7,7 +7,7 @@ public class Lab103 {
         Student s2 = new Student(23);
         System.out.println(s1.age);
         System.out.println(s2.age);
-        System.out.println(Student. School_Name);
+        System.out.println(Student. School_Name);//static variable can access without the object creation.
         Student. School_Name = "XYZ";
         System.out.println(Student. School_Name);
 
@@ -39,7 +39,8 @@ class Student
 //instance variable is loaded when the object is created(loaded).
 //Student s1 = new Student(22);
 // in here when student is loaded that time static variable school name is loaded.
-//and they assign null value because string default value is null.
+//If they don't have any value then they take "null" because String default value is null.
+// but here is the value is "ABC".
 //instance variable age is loaded when the new student() object is created.
 //Student->SIB->static variable->IIB->instance variable.
 //In this example first student class is loaded then SIB then static variable then IIB then instance variable.

@@ -9,22 +9,20 @@ public class Lab123 {
         FileInputStream file = null;
         try {
             file = new FileInputStream("file.txt");
-        } catch (FileNotFoundException e)
-        {
-           System.out.println("file not found");
         }
-        finally {
-           // if(file != null);//finally will not execute.
-           // {
-              //  try
-               // {
+        catch (FileNotFoundException e) {
+            System.out.println("file not found");
+        }
+//        finally {
+//            if (file != null) ;//finally will not execute.
+//            {
+//                try {
 //                    file.close();
-//                } catch (IOException e)
-//                {
-//                   System.out.println("hi");
+//                } catch (IOException e) {
+//                    System.out.println("hi");
 //                }
-            System.out.println("hi");
-            }
+//                System.out.println("hi");
+//            }
 
         }
 

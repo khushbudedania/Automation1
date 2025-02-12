@@ -1,8 +1,10 @@
 package oct.exe_16102024_Static.Enum;
 
 public class Lab108 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
      System.out.println(Apiconstantsendpoints.BASE_URL.getName());
+
     }
 
     enum Apiconstantsendpoints{
@@ -11,15 +13,15 @@ public class Lab108 {
 
         private String Name;
 
-        Apiconstantsendpoints(String name) {
+        Apiconstantsendpoints(String name)
+        {
             this.Name = name;
         }
 
-        public String getName() {
+        public String getName()
+        {
             return Name;
         }
-
-
-        }
-
+    }
 }
+//you can't create a object of enum.

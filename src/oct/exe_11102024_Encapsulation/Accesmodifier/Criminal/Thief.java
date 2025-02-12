@@ -8,6 +8,5 @@ public class Thief {
        // System.out.println( c1.gun);
        // c1.canishoot();
 
-
     }
 }

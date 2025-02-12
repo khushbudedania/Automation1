@@ -1,6 +1,6 @@
 package oct.exe_09102024_Inheritance.Multiple_Inheritance;
 
-public class Mother {
+public class Mother extends Father {
     void home()
     {
         System.out.println("4 bhk");

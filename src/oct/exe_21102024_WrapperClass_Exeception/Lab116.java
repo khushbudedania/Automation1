@@ -8,5 +8,12 @@ public class Lab116 {
         System.out.println(a1);
         int a2 = a1;//unboxing
         System.out.println(a2);
+
+
+
+
+
+
+
     }
 }

@@ -1,7 +1,8 @@
 package oct.exe_18102024_String_Function;
 
 public class Lab_114_StringBuffer_and_StringBuilder {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         StringBuffer stringBuffer = new StringBuffer("KHUSHBU");
         StringBuffer stringBuffer1 = new StringBuffer("CHIRAG");
         stringBuffer.append("DEDANIA");
@@ -21,7 +22,6 @@ public class Lab_114_StringBuffer_and_StringBuilder {
         //Delete
         stringBuilder.delete(4,6);
         System.out.println(stringBuilder);
-
 
         //Reverse
         stringBuilder.reverse();

@@ -41,9 +41,5 @@ public class Lab155_Hashset {
         while (it.hasNext()){
             System.out.println(it.next());
         }
-
     }
-
-
-
 }

@@ -45,6 +45,7 @@ public class Task25_Person1 {
         this.Eye_color = Eye_color;
         return Eye_color;
         }
+
         void hw(float weight, float height)//without return type with parameter
          {
            this.weight = weight;
@@ -52,8 +53,8 @@ public class Task25_Person1 {
          }
 
          void walk( String Last_Name)
-        {
-        System.out.println("this is pc");
+         {
+           System.out.println("this is pc");
 
          }
 
@@ -74,9 +75,11 @@ public class Task25_Person1 {
         System.out.println(p2.Adhar_card_no);
 
 
-        Task25_Person1 p3 = new Task25_Person1();
-        //System.out.println(p3.hw(52f,5.1f));
-        p3.hw(5.5f,5f);
+        Task25_Person1 p3 = new Task25_Person1("khushbu","dedania");
+        System.out.println(p3.First_Name);
+        System.out.println(p3.Last_Name);
+
+
         Task25_Person1 p4 = new Task25_Person1();
         Task25_Person1 p5 = new Task25_Person1();
     }

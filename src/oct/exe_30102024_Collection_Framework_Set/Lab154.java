@@ -6,7 +6,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class Lab154 {
+public class  Lab154 {
     public static void main(String[] args) {
         HashSet hs = new HashSet();
         LinkedHashSet lhs = new LinkedHashSet();

@@ -15,6 +15,7 @@ public class Task24_Person {
     //DC -- Default constructor
     Task24_Person() {
         System.out.println("Iam a DC");
+
     }
 
     //PC -- Parameterized Constructor
@@ -50,12 +51,12 @@ public class Task24_Person {
     public static void main(String[] args) {
 
         Task24_Person jay = new Task24_Person();
+        System.out.println(jay.name);//because we dont set any value for jay so that they can take null.because string default value is null.
+
         Task24_Person kay = new Task24_Person("kay");
-        Task24_Person lee = new Task24_Person("lee");
-
-
-        System.out.println(jay.name);
         System.out.println(kay.name);
+
+        Task24_Person lee = new Task24_Person("lee");
         System.out.println(lee.name);
 
     }

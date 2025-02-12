@@ -14,7 +14,7 @@ public class API_Automation {
         T1.setId(50);
 
         System.out.println("set id ->"+ T1.getId());
-        System.out.println("set id ->"+ T1.getName());
+        System.out.println("set name ->"+ T1.getName());
 
 
 

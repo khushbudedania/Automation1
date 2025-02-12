@@ -5,10 +5,11 @@ public class ICICI {
     private String Name;
     private int Balance;
 
-    public ICICI(String name, int balance) {
+    ICICI(String name, int balance)
+      {
         Name = name;
         Balance = balance;
-    }
+      }
 
     public String getName() {
         return Name;
@@ -28,10 +29,12 @@ public class ICICI {
     }
 
     public void setBalance(int Balance, boolean isadmin) {
-        if (isadmin) {
+        if (isadmin)
+        {
             this.Balance = Balance;
             System.out.println("allowed");
-        } else {
+        } else
+        {
             System.out.println("not allowed");
         }
 

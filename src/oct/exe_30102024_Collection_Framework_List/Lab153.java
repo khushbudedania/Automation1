@@ -12,6 +12,7 @@ public class Lab153 {
         System.out.println("1st way");
         mystudents.add(s1);
         mystudents.add(s2);
+        System.out.println(mystudents.indexOf(s2));
         System.out.println(mystudents);
 
         System.out.println("PrintDetails 2nd way");
@@ -20,11 +21,17 @@ public class Lab153 {
 
     }
 }
-class Student
+class  Student
 {
     String Name;
     Integer RollNo;
 
+
+    public Student(Integer rollNo, String name) {
+        RollNo = rollNo;
+        Name = name;
+
+    }
     public String getName() {
         return Name;
     }
@@ -49,21 +56,10 @@ class Student
                 '}';
     }
 
-
-
     public String PrintDetails() {
         return "Student{" +
                 "Name='" + Name + '\'' +
                 ", RollNo=" + RollNo +
                 '}';
-
-
     }
-
-    public Student(Integer rollNo, String name) {
-        RollNo = rollNo;
-        Name = name;
-
-
     }
-}

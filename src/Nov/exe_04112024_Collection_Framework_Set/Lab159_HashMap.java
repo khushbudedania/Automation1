@@ -28,6 +28,7 @@ public class Lab159_HashMap {
         {
             System.out.println(item.getKey()+" -> "+ item.getValue());
         }
+
         }
 }
 //HashMap is a part of Java’s collection since Java 1.2. It provides the basic implementation of the Map interface

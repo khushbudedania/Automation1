@@ -6,5 +6,9 @@ public class Lab83 {
         Parent p = new Parent();
         s.bhk3();
         s.bhk2();
+        int f_gold = s.gold;
+        System.out.println(f_gold);
+
+
     }
 }

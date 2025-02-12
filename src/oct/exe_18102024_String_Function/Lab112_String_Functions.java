@@ -1,10 +1,10 @@
 package oct.exe_18102024_String_Function;
 
-public class Lab112_String_Functions {
+public class Lab112_String_Functions
+{
     public static void main(String[] args) {
         String S1 = " Hello World ";
         String S2 = " Hello World ";
-
 
         //Length of the String
         System.out.println("Length: " + S1.length());
